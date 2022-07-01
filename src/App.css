@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500&display=swap");
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: peachpuff;
+}
+
+.App {
+  text-align: center;
+}

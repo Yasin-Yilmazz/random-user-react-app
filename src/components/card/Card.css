@@ -1,0 +1,33 @@
+.content {
+  display: grid;
+  grid-template-columns: 130px 300px;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: yellow;
+  border-radius: 1rem;
+  min-width: 550px;
+}
+.image img {
+  width: 100px;
+  border-radius: 50%;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.svg img {
+  width: 2rem;
+  height: 2rem;
+}
+.age {
+  grid-column: 1/3;
+}
+.regdate {
+  grid-column: 1/3;
+}
+h4 {
+  font-weight: 400;
+}
